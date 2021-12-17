@@ -5,4 +5,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="DataTypes\**" />
+    <Compile Remove="SimpleDataTypes\**" />
+    <EmbeddedResource Remove="DataTypes\**" />
+    <EmbeddedResource Remove="SimpleDataTypes\**" />
+    <None Remove="DataTypes\**" />
+    <None Remove="SimpleDataTypes\**" />
+  </ItemGroup>
+
 </Project>
